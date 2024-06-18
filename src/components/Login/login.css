@@ -82,4 +82,17 @@
     color: red;
     cursor: pointer;
     font-weight: 500;
-}
+}.login-popup-container {
+    position: relative;
+    
+  }
+  
+  .close-icon {
+    position: absolute;
+    top: 40px;
+    right: 10px; 
+    cursor: pointer;
+   
+
+  }
+  
