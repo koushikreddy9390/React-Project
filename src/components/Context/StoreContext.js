@@ -25,6 +25,10 @@ const removeFromCart=(itemId)=>{
 
 }
 
+const clearCart = () => {
+    setCartItems({});
+  };
+
 
 
 const getTotalCartAmount=()=>{
@@ -48,7 +52,8 @@ const getTotalCartAmount=()=>{
         setCartItems,
         addToCart,
         removeFromCart,
-        getTotalCartAmount
+        getTotalCartAmount,
+        clearCart
     }
   return (
     <div>
